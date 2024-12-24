@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Git\\Sparta\\Sparta_CH_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BD22A52-74F1-415C-9A64-BFA49C58643A}|Sparta_CH_2_1\\Sparta_CH_2_1.vcxproj|C:\\Git\\Sparta\\Sparta_CH_2\\Sparta_CH_2_1\\CH_2_2_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2BD22A52-74F1-415C-9A64-BFA49C58643A}|Sparta_CH_2_1\\Sparta_CH_2_1.vcxproj|solutionrelative:Sparta_CH_2_1\\CH_2_2_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2BD22A52-74F1-415C-9A64-BFA49C58643A}|Sparta_CH_2_1\\Sparta_CH_2_1.vcxproj|C:\\Git\\Sparta\\Sparta_CH_2\\Sparta_CH_2_1\\CH_2_3_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2BD22A52-74F1-415C-9A64-BFA49C58643A}|Sparta_CH_2_1\\Sparta_CH_2_1.vcxproj|solutionrelative:Sparta_CH_2_1\\CH_2_3_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD22A52-74F1-415C-9A64-BFA49C58643A}|Sparta_CH_2_1\\Sparta_CH_2_1.vcxproj|C:\\Git\\Sparta\\Sparta_CH_2\\Sparta_CH_2_1\\CH_2_2_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2BD22A52-74F1-415C-9A64-BFA49C58643A}|Sparta_CH_2_1\\Sparta_CH_2_1.vcxproj|solutionrelative:Sparta_CH_2_1\\CH_2_2_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BD22A52-74F1-415C-9A64-BFA49C58643A}|Sparta_CH_2_1\\Sparta_CH_2_1.vcxproj|C:\\Git\\Sparta\\Sparta_CH_2\\Sparta_CH_2_1\\CustomVector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,30 +38,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CH_2_3_main.cpp",
               "DocumentMoniker": "C:\\Git\\Sparta\\Sparta_CH_2\\Sparta_CH_2_1\\CH_2_3_main.cpp",
               "RelativeDocumentMoniker": "Sparta_CH_2_1\\CH_2_3_main.cpp",
               "ToolTip": "C:\\Git\\Sparta\\Sparta_CH_2\\Sparta_CH_2_1\\CH_2_3_main.cpp",
               "RelativeToolTip": "Sparta_CH_2_1\\CH_2_3_main.cpp",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAYwKcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAYwIsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-24T02:01:42.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CH_2_2_main.cpp",
               "DocumentMoniker": "C:\\Git\\Sparta\\Sparta_CH_2\\Sparta_CH_2_1\\CH_2_2_main.cpp",
               "RelativeDocumentMoniker": "Sparta_CH_2_1\\CH_2_2_main.cpp",
               "ToolTip": "C:\\Git\\Sparta\\Sparta_CH_2\\Sparta_CH_2_1\\CH_2_2_main.cpp",
               "RelativeToolTip": "Sparta_CH_2_1\\CH_2_2_main.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwGgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-23T14:20:42.14Z",
               "EditorCaption": ""
@@ -76,8 +76,7 @@
               "RelativeToolTip": "Sparta_CH_2_1\\CH_2_1_main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-23T12:12:40.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T12:12:40.191Z"
             },
             {
               "$type": "Document",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "Sparta_CH_2_1\\CustomVector.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-23T12:06:34.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T12:06:34.209Z"
             },
             {
               "$type": "Document",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Sparta_CH_2_1\\CustomVector.h",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-23T12:06:38.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T12:06:38.401Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Sparta_CH_2_1\\CustomMath.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAA+wBMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-23T09:13:18.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T09:13:18.736Z"
             },
             {
               "$type": "Document",
