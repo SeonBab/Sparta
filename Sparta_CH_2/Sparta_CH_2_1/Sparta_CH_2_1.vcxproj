@@ -130,6 +130,10 @@
     <ClCompile Include="CH_2_1_main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="CH_2_2_main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CH_2_3_main.cpp" />
     <ClCompile Include="CustomMath.cpp" />
     <ClCompile Include="CustomVector.cpp" />
   </ItemGroup>

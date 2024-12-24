@@ -24,6 +24,12 @@
     <ClCompile Include="CH_2_1_main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CH_2_2_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CH_2_3_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CustomVector.h">

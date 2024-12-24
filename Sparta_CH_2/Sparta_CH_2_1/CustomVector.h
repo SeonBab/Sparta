@@ -18,6 +18,15 @@ public:
 	// 持失切
 	CustomVector() : startPointer(nullptr), size_(0), capacity_(0) {}
 
+	CustomVector(int size)
+	{
+		int* newData = new int[size];
+		startPointer = newData;
+
+		size_ = size;
+		capacity_ = size;
+	}
+
 	// 社瑚切
 	~CustomVector() { delete[] startPointer; }
 
