@@ -34,9 +34,11 @@ void InputNumber(CustomVector& NumberArr, int& sortOrder)
 // 병함 정렬을 위해 배열을 합치고 정렬하는 함수
 void merge(CustomVector& array, int left, int mid, int right, int sortOrder)
 {
+	// 임시 배열의 크기
 	int n1 = mid - left + 1;
 	int n2 = right - mid;
 
+	// 임시 배열 생성
 	CustomVector L(n1), R(n2);
 	for (int i = 0; i < n1; ++i)
 	{
@@ -47,6 +49,7 @@ void merge(CustomVector& array, int left, int mid, int right, int sortOrder)
 		R[j] = array[mid + j + 1];
 	}
 
+	// 임시 배열의 값으로 정렬 후 원본 배열의 값 수정
 	int i = 0, j = 0, k = left;
 	while (i < n1 && j < n2)
 	{
@@ -61,6 +64,7 @@ void merge(CustomVector& array, int left, int mid, int right, int sortOrder)
 
 	}
 
+	// 임시 배열의 남은 값 대입
 	while (i < n1)
 	{
 		array[k++] = L[i++];
