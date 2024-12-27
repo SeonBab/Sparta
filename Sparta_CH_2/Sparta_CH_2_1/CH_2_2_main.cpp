@@ -1,8 +1,10 @@
 #include <iostream>
 
 #include "CustomVector.h"
-#include "CustomMath.h"
 
+// CH2 간단한 프로그래밍 구현 1번 도전 과제
+
+// 입력을 받는 함수
 void InputNumber(CustomVector& NumberArr, int& sortOrder)
 {
 	int maxInput;
@@ -29,6 +31,7 @@ void InputNumber(CustomVector& NumberArr, int& sortOrder)
 	std::cin >> sortOrder;
 }
 
+// 병함 정렬을 위해 배열을 합치고 정렬하는 함수
 void merge(CustomVector& array, int left, int mid, int right, int sortOrder)
 {
 	int n1 = mid - left + 1;
@@ -68,6 +71,7 @@ void merge(CustomVector& array, int left, int mid, int right, int sortOrder)
 	}
 }
 
+// 병합 정렬을 위해 배열을 분리하는 함수
 void mergeSort(CustomVector& array, int left, int right, int sortOrder)
 {
 	if (left < right)
@@ -79,6 +83,7 @@ void mergeSort(CustomVector& array, int left, int right, int sortOrder)
 	}
 }
 
+// 출력하는 함수
 void PrintResult(CustomVector& NumberArr)
 {
 	for (int i = 0; i < NumberArr.size(); ++i)

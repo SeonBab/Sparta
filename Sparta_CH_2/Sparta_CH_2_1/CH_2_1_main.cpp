@@ -1,8 +1,10 @@
 #include <iostream>
 
 #include "CustomVector.h"
-#include "CustomMath.h"
 
+// CH2 간단한 프로그래밍 구현 1번 필수 과제
+
+// 입력을 받는 함수
 void InputNumber(CustomVector& NumberArr)
 {
 	int maxInput;
@@ -25,15 +27,36 @@ void InputNumber(CustomVector& NumberArr)
 
 }
 
+// 정수의 총합을 구하는 함수
+int accumulate(int* first, int* last)
+{
+	int totalSum = 0;
+
+	for (; first != last; ++first)
+	{
+		totalSum += *first;
+	}
+
+	return totalSum;
+}
+
+// 평균을 구하는 함수
+double calculateAverage(int totalSum, int count)
+{
+	if (count == 0) return 0;
+
+	return totalSum / static_cast<double>(count);
+}
+
 int main()
 {
 	CustomVector NumberArr{};
 
 	InputNumber(NumberArr);
 
-	int totalSum = CustomMath::accumulate(NumberArr.begin(), NumberArr.end());
+	int totalSum = accumulate(NumberArr.begin(), NumberArr.end());
 
-	double average = CustomMath::calculateAverage(totalSum, NumberArr.size());
+	double average = calculateAverage(totalSum, NumberArr.size());
 
 	std::cout << "숫자들의 총합입니다. : " << totalSum << std::endl;
 

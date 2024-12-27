@@ -2,6 +2,8 @@
 #include <cstdlib>
 #include <ctime>
 
+// CH2 OOP Summary 2번 필수 및 도전과제 제출
+
 class Animal
 {
 public:
@@ -52,7 +54,7 @@ public:
 		if (animalCount == arraysize)
 		{
 			(arraysize == 0) ? arraysize = 1 : arraysize *= 2;
-			Animal** newAnimals = new Animal*[arraysize];
+			Animal** newAnimals = new Animal * [arraysize];
 
 			for (int i = 0; i < animalCount; ++i)
 			{
@@ -128,12 +130,12 @@ Animal* createRandomAnimal()
 
 int main()
 {
-	// 기본
+	// 필수
 	Dog dog1;
 	Cat cat1;
 	Cow cow1;
-	
-	Animal* animals[3]{&dog1, &cat1, &cow1};
+
+	Animal* animals[3]{ &dog1, &cat1, &cow1 };
 
 	for (int i = 0; i < 3; ++i)
 	{
@@ -144,7 +146,7 @@ int main()
 	srand(time(0));
 
 	Zoo Zoo1;
-	
+
 	bool bInputLoop = true;
 	while (true == bInputLoop)
 	{

@@ -18,9 +18,6 @@
     <ClCompile Include="CustomVector.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CustomMath.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="CH_2_1_main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -33,9 +30,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CustomVector.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomMath.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
