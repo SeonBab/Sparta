@@ -6,13 +6,15 @@
 + Unreal Engine: 5.5.4
 + C++ 17
 
-
 ## 빌드/실행 방법
 
 `NumberBaseball.uproject`를 실행시킵니다.  
 
 또다른 방법으로는 `NumberBaseball.uproject`를 통해 `Generate Visual Studio project files`을 실행해주어 `.sln`을 만들어 실행해줍니다.  
 `.sln`에서 `NumberBaseball`을 시작 프로젝트로 설정하고, 빌드 > 솔루션 빌드를 통해 실행시킵니다.
+
+에디터 개인설정의 Run Under One Process(단일 프로세스 하 실행)가 `false`로 설정된 기준으로 구현 되어있습니다.  
+만약 `true`라면 출력이 2번씩 보이므로, `false`로 설정하는 것을 권장합니다.
 
 위의 과정으로 에디터를 켠 후 에디터 뷰포트로 플레이하면 2개의 창이 열리고, 해당 창에서 플레이하면 됩니다.
 
